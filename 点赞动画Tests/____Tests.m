@@ -1,6 +1,6 @@
 //
 //  ____Tests.m
-//  点赞动画Tests
+//  发光的太阳Tests
 //
 //  Created by 刘浩浩 on 16/8/25.
 //  Copyright © 2016年 CodingFire. All rights reserved.

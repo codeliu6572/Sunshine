@@ -15,6 +15,7 @@
 		6829A72A1D6E83BE00E4A1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6829A7281D6E83BE00E4A1D1 /* LaunchScreen.storyboard */; };
 		6829A7351D6E83BE00E4A1D1 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6829A7341D6E83BE00E4A1D1 /* ____Tests.m */; };
 		6829A7401D6E83BE00E4A1D1 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6829A73F1D6E83BE00E4A1D1 /* ____UITests.m */; };
+		6829A74E1D6ED68A00E4A1D1 /* zbar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6829A74D1D6ED68A00E4A1D1 /* zbar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6829A7171D6E83BE00E4A1D1 /* 点赞动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "点赞动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6829A7171D6E83BE00E4A1D1 /* 发光的太阳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "发光的太阳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6829A71B1D6E83BE00E4A1D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6829A71D1D6E83BE00E4A1D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6829A71E1D6E83BE00E4A1D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +46,13 @@
 		6829A7261D6E83BE00E4A1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6829A7291D6E83BE00E4A1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6829A72B1D6E83BE00E4A1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6829A7301D6E83BE00E4A1D1 /* 点赞动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "点赞动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6829A7301D6E83BE00E4A1D1 /* 发光的太阳.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "发光的太阳.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6829A7341D6E83BE00E4A1D1 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		6829A7361D6E83BE00E4A1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6829A73B1D6E83BE00E4A1D1 /* 点赞动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "点赞动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6829A73B1D6E83BE00E4A1D1 /* 发光的太阳.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "发光的太阳.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6829A73F1D6E83BE00E4A1D1 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		6829A7411D6E83BE00E4A1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6829A74D1D6ED68A00E4A1D1 /* zbar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zbar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,9 @@
 		6829A70E1D6E83BE00E4A1D1 = {
 			isa = PBXGroup;
 			children = (
-				6829A7191D6E83BE00E4A1D1 /* 点赞动画 */,
-				6829A7331D6E83BE00E4A1D1 /* 点赞动画Tests */,
-				6829A73E1D6E83BE00E4A1D1 /* 点赞动画UITests */,
+				6829A7191D6E83BE00E4A1D1 /* 发光的太阳 */,
+				6829A7331D6E83BE00E4A1D1 /* 发光的太阳Tests */,
+				6829A73E1D6E83BE00E4A1D1 /* 发光的太阳UITests */,
 				6829A7181D6E83BE00E4A1D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,26 +93,28 @@
 		6829A7181D6E83BE00E4A1D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6829A7171D6E83BE00E4A1D1 /* 点赞动画.app */,
-				6829A7301D6E83BE00E4A1D1 /* 点赞动画Tests.xctest */,
-				6829A73B1D6E83BE00E4A1D1 /* 点赞动画UITests.xctest */,
+				6829A7171D6E83BE00E4A1D1 /* 发光的太阳.app */,
+				6829A7301D6E83BE00E4A1D1 /* 发光的太阳.xctest */,
+				6829A73B1D6E83BE00E4A1D1 /* 发光的太阳.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6829A7191D6E83BE00E4A1D1 /* 点赞动画 */ = {
+		6829A7191D6E83BE00E4A1D1 /* 发光的太阳 */ = {
 			isa = PBXGroup;
 			children = (
 				6829A71D1D6E83BE00E4A1D1 /* AppDelegate.h */,
 				6829A71E1D6E83BE00E4A1D1 /* AppDelegate.m */,
 				6829A7201D6E83BE00E4A1D1 /* ViewController.h */,
 				6829A7211D6E83BE00E4A1D1 /* ViewController.m */,
+				6829A74D1D6ED68A00E4A1D1 /* zbar.jpg */,
 				6829A7231D6E83BE00E4A1D1 /* Main.storyboard */,
 				6829A7261D6E83BE00E4A1D1 /* Assets.xcassets */,
 				6829A7281D6E83BE00E4A1D1 /* LaunchScreen.storyboard */,
 				6829A72B1D6E83BE00E4A1D1 /* Info.plist */,
 				6829A71A1D6E83BE00E4A1D1 /* Supporting Files */,
 			);
+			name = "发光的太阳";
 			path = "点赞动画";
 			sourceTree = "<group>";
 		};
@@ -122,30 +126,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6829A7331D6E83BE00E4A1D1 /* 点赞动画Tests */ = {
+		6829A7331D6E83BE00E4A1D1 /* 发光的太阳Tests */ = {
 			isa = PBXGroup;
 			children = (
 				6829A7341D6E83BE00E4A1D1 /* ____Tests.m */,
 				6829A7361D6E83BE00E4A1D1 /* Info.plist */,
 			);
+			name = "发光的太阳Tests";
 			path = "点赞动画Tests";
 			sourceTree = "<group>";
 		};
-		6829A73E1D6E83BE00E4A1D1 /* 点赞动画UITests */ = {
+		6829A73E1D6E83BE00E4A1D1 /* 发光的太阳UITests */ = {
 			isa = PBXGroup;
 			children = (
 				6829A73F1D6E83BE00E4A1D1 /* ____UITests.m */,
 				6829A7411D6E83BE00E4A1D1 /* Info.plist */,
 			);
+			name = "发光的太阳UITests";
 			path = "点赞动画UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6829A7161D6E83BE00E4A1D1 /* 点赞动画 */ = {
+		6829A7161D6E83BE00E4A1D1 /* 发光的太阳 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6829A7441D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "点赞动画" */;
+			buildConfigurationList = 6829A7441D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "发光的太阳" */;
 			buildPhases = (
 				6829A7131D6E83BE00E4A1D1 /* Sources */,
 				6829A7141D6E83BE00E4A1D1 /* Frameworks */,
@@ -155,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = "点赞动画";
+			name = "发光的太阳";
 			productName = "点赞动画";
-			productReference = 6829A7171D6E83BE00E4A1D1 /* 点赞动画.app */;
+			productReference = 6829A7171D6E83BE00E4A1D1 /* 发光的太阳.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6829A72F1D6E83BE00E4A1D1 /* 点赞动画Tests */ = {
+		6829A72F1D6E83BE00E4A1D1 /* 发光的太阳Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6829A7471D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "点赞动画Tests" */;
+			buildConfigurationList = 6829A7471D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "发光的太阳Tests" */;
 			buildPhases = (
 				6829A72C1D6E83BE00E4A1D1 /* Sources */,
 				6829A72D1D6E83BE00E4A1D1 /* Frameworks */,
@@ -173,14 +179,14 @@
 			dependencies = (
 				6829A7321D6E83BE00E4A1D1 /* PBXTargetDependency */,
 			);
-			name = "点赞动画Tests";
+			name = "发光的太阳Tests";
 			productName = "点赞动画Tests";
-			productReference = 6829A7301D6E83BE00E4A1D1 /* 点赞动画Tests.xctest */;
+			productReference = 6829A7301D6E83BE00E4A1D1 /* 发光的太阳.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6829A73A1D6E83BE00E4A1D1 /* 点赞动画UITests */ = {
+		6829A73A1D6E83BE00E4A1D1 /* 发光的太阳UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6829A74A1D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "点赞动画UITests" */;
+			buildConfigurationList = 6829A74A1D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "发光的太阳UITests" */;
 			buildPhases = (
 				6829A7371D6E83BE00E4A1D1 /* Sources */,
 				6829A7381D6E83BE00E4A1D1 /* Frameworks */,
@@ -191,9 +197,9 @@
 			dependencies = (
 				6829A73D1D6E83BE00E4A1D1 /* PBXTargetDependency */,
 			);
-			name = "点赞动画UITests";
+			name = "发光的太阳UITests";
 			productName = "点赞动画UITests";
-			productReference = 6829A73B1D6E83BE00E4A1D1 /* 点赞动画UITests.xctest */;
+			productReference = 6829A73B1D6E83BE00E4A1D1 /* 发光的太阳.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6829A7121D6E83BE00E4A1D1 /* Build configuration list for PBXProject "点赞动画" */;
+			buildConfigurationList = 6829A7121D6E83BE00E4A1D1 /* Build configuration list for PBXProject "发光的太阳" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6829A7161D6E83BE00E4A1D1 /* 点赞动画 */,
-				6829A72F1D6E83BE00E4A1D1 /* 点赞动画Tests */,
-				6829A73A1D6E83BE00E4A1D1 /* 点赞动画UITests */,
+				6829A7161D6E83BE00E4A1D1 /* 发光的太阳 */,
+				6829A72F1D6E83BE00E4A1D1 /* 发光的太阳Tests */,
+				6829A73A1D6E83BE00E4A1D1 /* 发光的太阳UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6829A74E1D6ED68A00E4A1D1 /* zbar.jpg in Resources */,
 				6829A72A1D6E83BE00E4A1D1 /* LaunchScreen.storyboard in Resources */,
 				6829A7271D6E83BE00E4A1D1 /* Assets.xcassets in Resources */,
 				6829A7251D6E83BE00E4A1D1 /* Main.storyboard in Resources */,
@@ -297,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		6829A7321D6E83BE00E4A1D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6829A7161D6E83BE00E4A1D1 /* 点赞动画 */;
+			target = 6829A7161D6E83BE00E4A1D1 /* 发光的太阳 */;
 			targetProxy = 6829A7311D6E83BE00E4A1D1 /* PBXContainerItemProxy */;
 		};
 		6829A73D1D6E83BE00E4A1D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6829A7161D6E83BE00E4A1D1 /* 点赞动画 */;
+			target = 6829A7161D6E83BE00E4A1D1 /* 发光的太阳 */;
 			targetProxy = 6829A73C1D6E83BE00E4A1D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +423,7 @@
 				INFOPLIST_FILE = "点赞动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "发光的太阳";
 			};
 			name = Debug;
 		};
@@ -427,7 +434,7 @@
 				INFOPLIST_FILE = "点赞动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "发光的太阳";
 			};
 			name = Release;
 		};
@@ -438,8 +445,8 @@
 				INFOPLIST_FILE = "点赞动画Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/点赞动画.app/点赞动画";
+				PRODUCT_NAME = "发光的太阳";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/发光的太阳.app/发光的太阳";
 			};
 			name = Debug;
 		};
@@ -450,8 +457,8 @@
 				INFOPLIST_FILE = "点赞动画Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/点赞动画.app/点赞动画";
+				PRODUCT_NAME = "发光的太阳";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/发光的太阳.app/发光的太阳";
 			};
 			name = Release;
 		};
@@ -461,7 +468,7 @@
 				INFOPLIST_FILE = "点赞动画UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "发光的太阳";
 				TEST_TARGET_NAME = "点赞动画";
 			};
 			name = Debug;
@@ -472,7 +479,7 @@
 				INFOPLIST_FILE = "点赞动画UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Codeliu.Fire.----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "发光的太阳";
 				TEST_TARGET_NAME = "点赞动画";
 			};
 			name = Release;
@@ -480,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6829A7121D6E83BE00E4A1D1 /* Build configuration list for PBXProject "点赞动画" */ = {
+		6829A7121D6E83BE00E4A1D1 /* Build configuration list for PBXProject "发光的太阳" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6829A7421D6E83BE00E4A1D1 /* Debug */,
@@ -489,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6829A7441D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "点赞动画" */ = {
+		6829A7441D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "发光的太阳" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6829A7451D6E83BE00E4A1D1 /* Debug */,
@@ -497,7 +504,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		6829A7471D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "点赞动画Tests" */ = {
+		6829A7471D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "发光的太阳Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6829A7481D6E83BE00E4A1D1 /* Debug */,
@@ -505,7 +512,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		6829A74A1D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "点赞动画UITests" */ = {
+		6829A74A1D6E83BE00E4A1D1 /* Build configuration list for PBXNativeTarget "发光的太阳UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6829A74B1D6E83BE00E4A1D1 /* Debug */,

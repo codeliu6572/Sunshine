@@ -1,6 +1,6 @@
 //
 //  ____UITests.m
-//  点赞动画UITests
+//  发光的太阳UITests
 //
 //  Created by 刘浩浩 on 16/8/25.
 //  Copyright © 2016年 CodingFire. All rights reserved.
